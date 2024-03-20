@@ -2,11 +2,10 @@
     ---background_color : #4F80E2;
     ---background_color2 :#F0F0F1;
     ---background_color3 : #15CDCA;
-    ---background_color4 : #FF5349;
     ---text_color : rgb(155, 151, 151);
     ---text_color2 : black;
     ---text_color1 :white;
-    ---text_color3:rgb(202, 66, 41);
+    ---text_color3:#26c7c4;
     ---text_color4:rgb(0, 119, 255);
 }
 
@@ -66,7 +65,7 @@ body
     font-size:1.6rem;
     font-weight:800;
     padding-top:0.5rem;
-    color:var(---text_color3)
+    color:var(---text_color3);
 }
 .uranus_headerText span
 {
@@ -81,8 +80,8 @@ body
     height:40px;
     background-size: contain;
     background-repeat: no-repeat;
-    filter:invert(56%) sepia(67%) saturate(2784%) 
-    hue-rotate(324deg) brightness(75%) contrast(101%);
+    filter:invert(60%) sepia(89%) saturate(421%) 
+        hue-rotate(129deg) brightness(93%) contrast(92%);
     transform: rotate(90deg);
     position: absolute;
     right:1rem;
@@ -373,7 +372,8 @@ body
     #sticky_control
     {
         background-image:url("images/attach.png");
-        filter:invert(56%) sepia(67%) saturate(2784%) hue-rotate(324deg) brightness(92%) contrast(121%);
+        filter:invert(60%) sepia(89%) saturate(421%) 
+        hue-rotate(129deg) brightness(93%) contrast(92%);
         width:30px;
         height:40px;
         background-size: contain;
