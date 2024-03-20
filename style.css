@@ -21,7 +21,7 @@ body
 {
     text-align:center;
     box-sizing: border-box;
-    background-image: url("../images/uranus_bg.jpg");
+    background-image: url("images/uranus_bg.jpg");
     color:var(---text_color);
     font-family : Verdana, sans-serif;
     backdrop-filter: blur(15px);
