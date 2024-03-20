@@ -40,8 +40,8 @@ body
 .uranus_logo img
 {
     position:relative;
-    width:10%;
-    height:40px;
+    width:8%;
+    height:30px;
     animation-name:myanim;
     animation-timing-function:ease-in-out;
     animation-iteration-count: infinite;
@@ -63,7 +63,7 @@ body
 
 .uranus_headerText
 {
-    font-size:1.8rem;
+    font-size:1.6rem;
     font-weight:800;
     padding-top:0.5rem;
     color:var(---text_color3)
@@ -71,7 +71,7 @@ body
 .uranus_headerText span
 {
     display:block;
-    font-size:1.5rem;
+    font-size:1.3rem;
     color:rgb(4, 23, 49);
 }
 #sticky_control
