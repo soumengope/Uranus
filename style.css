@@ -1,12 +1,12 @@
 :root{
     ---background_color : #4F80E2;
-    ---background_color2 :#F0F0F1;
+    ---background_color2 : #F0F0F1;
     ---background_color3 : #15CDCA;
     ---text_color : rgb(155, 151, 151);
     ---text_color2 : black;
-    ---text_color1 :white;
-    ---text_color3:#26c7c4;
-    ---text_color4:rgb(0, 119, 255);
+    ---text_color1 : white;
+    ---text_color3: #26c7c4;
+    ---text_color4: rgb(0, 119, 255);
 }
 
 body,*,*::after, *::before{
@@ -106,7 +106,6 @@ body
     padding-top:1rem;
     padding-bottom:1rem;
     text-align:center;
-    /* background-color:var(---background_color); */
     color:var(---text_color1);
 }
 .USec1_contentText
