@@ -43,12 +43,12 @@ function scrollToTop(){
                 left:0,
                 top:scrollStep,
             }); 
-            val = val+0.645;
+            val = val+0.65;
             if(val > 0){
                 rocket_txt.innerText = 'Lifting';
                 rocket_txt.style.color = 'green';
             }
-            if(val > 500){
+            if(val > 450){
                 rocket_txt.innerText = 'Crashing';
                 rocket_txt.style.color = 'red';
             }
