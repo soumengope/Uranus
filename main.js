@@ -63,7 +63,7 @@ function scrollToTop(){
             clearInterval(changePos)
             rocket.style.bottom=`${0}rem`;
             rocket_txt.innerText = 'Pre-Launch';
-            rocket_txt.style.color = 'blue';
+            rocket_txt.style.color = 'rgb(187, 48, 23)';
         }
     },10)
 }
