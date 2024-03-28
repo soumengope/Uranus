@@ -1,12 +1,12 @@
 :root{
     ---background_color : #4F80E2;
-    ---background_color2 : #F0F0F1;
+    ---background_color2 :#F0F0F1;
     ---background_color3 : #15CDCA;
     ---text_color : rgb(155, 151, 151);
     ---text_color2 : black;
-    ---text_color1 : white;
-    ---text_color3: #26c7c4;
-    ---text_color4: rgb(0, 119, 255);
+    ---text_color1 :white;
+    ---text_color3:#26c7c4;
+    ---text_color4:rgb(0, 119, 255);
 }
 
 body,*,*::after, *::before{
@@ -17,7 +17,8 @@ body
 {
     text-align:center;
     box-sizing: border-box;
-    background-image: url("images/uranus_bg.jpg");
+    /* background-image: url("images/uranus_bg.jpg"); */
+    background-color: black;
     color:var(---text_color);
     font-family : Verdana, sans-serif;
     backdrop-filter: blur(15px);
@@ -106,6 +107,7 @@ body
     padding-top:1rem;
     padding-bottom:1rem;
     text-align:center;
+    /* background-color:var(---background_color); */
     color:var(---text_color1);
 }
 .USec1_contentText
@@ -154,6 +156,7 @@ body
 {
     position:relative;
     background-color:var(---background_color3);
+    box-shadow:0 2px 5px rgb(51, 250, 240);
     color:var(---text_color2);
     border-radius:1rem;
 }
@@ -219,6 +222,7 @@ body
     justify-content: center;
     align-items: center;
     background-color:var(---background_color3);
+    box-shadow:0 2px 5px rgb(51, 250, 240);
     color:var(---text_color2);
     border:1px solid rgb(255, 255, 255);
     border-radius: 1rem;
@@ -257,6 +261,7 @@ body
     height:150px;
     margin-top:1.2rem;
     border:1px solid var(---background_color3);
+    box-shadow:0 2px 5px rgb(51, 250, 240);
 }
 .USec2_images img:hover
     {
@@ -275,6 +280,7 @@ body
     width:90%;
     height:200px;
     outline:2px solid var(---background_color3);
+    box-shadow:0 2px 5px rgb(51, 250, 240);
     margin-top:1rem;
 }
 .USec3_title
