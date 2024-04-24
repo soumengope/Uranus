@@ -1,7 +1,6 @@
 :root{
     ---background_color : #4F80E2;
     ---background_color2 :#F0F0F1;
-    ---background_color3 : #15CDCA;
     ---text_color : rgb(155, 151, 151);
     ---text_color2 : black;
     ---text_color1 :white;
@@ -18,7 +17,7 @@ body
     text-align:center;
     box-sizing: border-box;
     /* background-image: url("images/uranus_bg.jpg"); */
-    background-color: black;
+    background-color: rgb(48, 46, 46);
     color:var(---text_color);
     font-family : Verdana, sans-serif;
     backdrop-filter: blur(15px);
@@ -28,8 +27,7 @@ body
     position:sticky;
     top:0;
     z-index:999;
-    border-bottom: 1px solid rgb(0, 219, 248);
-    background-color: var(---background_color);
+    background-color: var(---background_color2);
 }
 
 .uranus_headerMain
@@ -66,13 +64,13 @@ body
     font-size:1.6rem;
     font-weight:800;
     padding-top:0.5rem;
-    color:var(---text_color3);
+    color:var(---text_color1);
 }
 .uranus_headerText span
 {
     display:block;
     font-size:1.3rem;
-    color:rgb(4, 23, 49);
+    color:black;
 }
 #sticky_control
 {
@@ -81,8 +79,7 @@ body
     height:40px;
     background-size: contain;
     background-repeat: no-repeat;
-    filter:invert(60%) sepia(89%) saturate(421%) 
-        hue-rotate(129deg) brightness(93%) contrast(92%);
+    filter:invert(100%) sepia(1%) saturate(7497%) hue-rotate(43deg) brightness(105%) contrast(101%);
     transform: rotate(90deg);
     position: absolute;
     right:1rem;
@@ -155,8 +152,8 @@ body
 .USec10_cDiv
 {
     position:relative;
-    background-color:var(---background_color3);
-    box-shadow:0 2px 5px rgb(51, 250, 240);
+    background-color:var(---background_color2);
+    box-shadow:0 2px 5px var(---background_color3);
     color:var(---text_color2);
     border-radius:1rem;
 }
@@ -221,10 +218,9 @@ body
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:var(---background_color3);
-    box-shadow:0 2px 5px rgb(51, 250, 240);
+    background-color:var(---background_color2);
+    box-shadow:0 2px 5px var(---background_color3);
     color:var(---text_color2);
-    border:1px solid rgb(255, 255, 255);
     border-radius: 1rem;
 }
 .USec01_mainCart div:hover
@@ -260,7 +256,6 @@ body
     width:90%;
     height:150px;
     margin-top:1.2rem;
-    border:1px solid var(---background_color3);
     box-shadow:0 2px 5px rgb(51, 250, 240);
 }
 .USec2_images img:hover
@@ -334,7 +329,7 @@ body
 .footer_topSectionLists a
 {
     text-decoration: none;
-    color:var(---text_color3);
+    color:var(---background_color2);
     font-weight:600;
     font-size:0.9rem;
 }
@@ -343,7 +338,7 @@ body
 {
     background-color: var(---background_color);
     padding:1rem 0.6rem;
-    color:var(---text_color3);
+    color:var(---background_color2);
     font-size:1rem;
     font-weight:600;
 }
